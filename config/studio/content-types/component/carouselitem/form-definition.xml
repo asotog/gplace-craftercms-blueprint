@@ -299,7 +299,7 @@
 						</property>
 						<property>
 							<name>imageManager</name>
-							<value></value>
+							<value>carouselItemImages</value>
 							<type>datasource:image</type>
 						</property>
 						<property>
@@ -320,14 +320,14 @@
 		</section>
 	</sections>
 	<datasources>				<datasource>
-					<type>file-desktop-upload</type>
-					<id>carouselItemsImages</id>
-					<title>Carousel Items Images</title>
-					<interface>item</interface>
+					<type>img-desktop-upload</type>
+					<id>carouselItemImages</id>
+					<title>Carousel Item Images</title>
+					<interface>image</interface>
 					<properties>
 						<property>
 							<name>repoPath</name>
-							<value>/carousel-items</value>
+							<value>/carouse-item-images</value>
 								<type>undefined</type>
 						</property>
 					</properties>
