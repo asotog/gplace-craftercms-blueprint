@@ -327,7 +327,7 @@
 					<properties>
 						<property>
 							<name>repoPath</name>
-							<value>/carouse-item-images</value>
+							<value>/static-assets/images/carousel-item-images</value>
 								<type>undefined</type>
 						</property>
 					</properties>
