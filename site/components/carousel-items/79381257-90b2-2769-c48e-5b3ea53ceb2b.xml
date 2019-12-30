@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/carouselitem</content-type>
+	<display-template/>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>7938</objectGroupId>
+	<objectId>79381257-90b2-2769-c48e-5b3ea53ceb2b</objectId>
+	<file-name>79381257-90b2-2769-c48e-5b3ea53ceb2b.xml</file-name>
+	<internal-name>srv-carousel-item</internal-name>
+	<subtitle_s/>
+	<title_s/>
+	<buttonLabel_s/>
+	<buttonLink_s/>
+	<mainImage_s>/static-assets/images/carousel-item-images/srv.jpg</mainImage_s>
+	<createdDate>2019-12-30T21:39:36.705Z</createdDate>
+	<createdDate_dt>2019-12-30T21:39:36.705Z</createdDate_dt>
+	<lastModifiedDate>2019-12-30T21:39:36.705Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-12-30T21:39:36.705Z</lastModifiedDate_dt>
+</component>
