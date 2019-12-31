@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/featuredsection</content-type>
+	<display-template/>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>a917</objectGroupId>
+	<objectId>a917a0fd-1d4e-37cf-9c54-cf059aa76bed</objectId>
+	<file-name>a917a0fd-1d4e-37cf-9c54-cf059aa76bed.xml</file-name>
+	<internal-name>featured</internal-name>
+	<title_s>Featured</title_s>
+	<createdDate>2019-12-31T20:09:15.896Z</createdDate>
+	<createdDate_dt>2019-12-31T20:09:15.896Z</createdDate_dt>
+	<lastModifiedDate>2019-12-31T20:09:15.896Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-12-31T20:09:15.896Z</lastModifiedDate_dt>
+</component>
