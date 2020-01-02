@@ -1,5 +1,5 @@
 <content-type name="/component/carouselitem" is-wcm-type="true">
-	<label>Carousel Item</label>
+	<label>Component - Carousel Item</label>
 	<form>/component/carouselitem</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
