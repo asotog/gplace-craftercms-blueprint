@@ -8,12 +8,12 @@
 	<objectId>6f92c4cd-760f-96b2-8060-d1386be628ea</objectId>
 	<internal-name>Gallery</internal-name>
 	<redirect-url>/</redirect-url>
-	<placeInNav>true</placeInNav>
-	<orderDefault_f>1000</orderDefault_f>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
 	<file-name>index.xml</file-name>
 	<folder-name>gallery</folder-name>
 	<createdDate>2020-01-02T16:28:36.667Z</createdDate>
 	<createdDate_dt>2020-01-02T16:28:36.667Z</createdDate_dt>
-	<lastModifiedDate>2020-01-02T16:31:36.739Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-01-02T16:31:36.739Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-01-02T16:34:31.512Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-01-02T16:34:31.512Z</lastModifiedDate_dt>
 </page>
