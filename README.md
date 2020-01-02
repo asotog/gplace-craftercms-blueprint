@@ -6,3 +6,4 @@
 - [ ] Values like graphql endpoint or crafter url should be switched when synced and running from crafter
 - [X] Redirect crafter pages to index where the app is running
 - [ ] Metadata for each page
+- [ ] Crafter Studio In context editing integration inside React application
