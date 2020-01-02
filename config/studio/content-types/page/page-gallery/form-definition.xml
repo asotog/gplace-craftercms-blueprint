@@ -204,9 +204,9 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>pageMetadataKeywords_s</id>
+					<id>pageMetadataDescription_s</id>
 					<iceId></iceId>
-					<title>Page Metadata Keywords</title>
+					<title>Page Metadata Description</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
