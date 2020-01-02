@@ -1,4 +1,4 @@
-#import "/templates/system/common/cstudio-support.ftl" as studio />
+<#import "/templates/system/common/cstudio-support.ftl" as studio />
 
 <#assign siteName = "null"/>
 <#if siteContext?? && siteContext.siteName??>
