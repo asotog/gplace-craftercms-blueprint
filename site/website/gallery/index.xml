@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/redirect</content-type>
+	<display-template/>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f849</objectGroupId>
+	<objectId>f8498172-6876-64d3-4e57-007e699552ab</objectId>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<internal-name>Gallery</internal-name>
+	<redirect-url>/</redirect-url>
+	<file-name>index.xml</file-name>
+	<folder-name>gallery</folder-name>
+	<createdDate>2020-01-02T16:39:38.405Z</createdDate>
+	<createdDate_dt>2020-01-02T16:39:38.405Z</createdDate_dt>
+	<lastModifiedDate>2020-01-02T16:39:38.405Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-01-02T16:39:38.405Z</lastModifiedDate_dt>
+</page>
