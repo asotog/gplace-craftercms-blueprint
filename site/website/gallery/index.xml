@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/page-gallery</content-type>
+	<display-template/>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f0e4</objectGroupId>
+	<objectId>f0e4fd98-0ba5-2d83-7d06-a741a38f7b39</objectId>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>2000</orderDefault_f>
+	<internal-name>Gallery</internal-name>
+	<file-name>index.xml</file-name>
+	<folder-name>gallery</folder-name>
+	<createdDate>2020-01-02T17:42:18.324Z</createdDate>
+	<createdDate_dt>2020-01-02T17:42:18.324Z</createdDate_dt>
+	<lastModifiedDate>2020-01-02T17:42:18.324Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-01-02T17:42:18.324Z</lastModifiedDate_dt>
+</page>
