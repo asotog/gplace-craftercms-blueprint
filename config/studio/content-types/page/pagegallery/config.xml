@@ -1,5 +1,5 @@
 <content-type name="/page/pagegallery" is-wcm-type="true">
-	<label>Page - Redirect</label>
+	<label>Page - Redirect Not Working</label>
 	<form>/page/pagegallery</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
