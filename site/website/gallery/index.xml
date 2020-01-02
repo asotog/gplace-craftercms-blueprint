@@ -6,7 +6,7 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>6f92</objectGroupId>
 	<objectId>6f92c4cd-760f-96b2-8060-d1386be628ea</objectId>
-	<internal-name>gallery</internal-name>
+	<internal-name>Gallery</internal-name>
 	<redirect-url>/</redirect-url>
 	<placeInNav>true</placeInNav>
 	<orderDefault_f>1000</orderDefault_f>
@@ -14,6 +14,6 @@
 	<folder-name>gallery</folder-name>
 	<createdDate>2020-01-02T16:28:36.667Z</createdDate>
 	<createdDate_dt>2020-01-02T16:28:36.667Z</createdDate_dt>
-	<lastModifiedDate>2020-01-02T16:28:36.667Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-01-02T16:28:36.667Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-01-02T16:30:07.309Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-01-02T16:30:07.309Z</lastModifiedDate_dt>
 </page>
