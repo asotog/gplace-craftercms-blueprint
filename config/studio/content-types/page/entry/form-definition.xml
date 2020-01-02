@@ -15,7 +15,7 @@
 		<property>
 			<name>no-template-required</name>
 			<label>No Template Required</label>
-			<value></value>
+			<value>true</value>
 			<type>boolean</type>
 		</property>
 		<property>
