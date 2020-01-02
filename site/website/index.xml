@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
 	<content-type>/page/entry</content-type>
-	<display-template>/templates/web/index.ftl</display-template>
-	<no-template-required/>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required>true</no-template-required>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<placeInNav>false</placeInNav>
 	<file-name>index.xml</file-name>
@@ -15,8 +15,8 @@
 	<folder-name/>
 	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2020-01-02T15:47:54.148Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-01-02T15:47:54.148Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-01-02T17:33:16.624Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-01-02T17:33:16.624Z</lastModifiedDate_dt>
 	<title_t>GPlace</title_t>
 	<disabled>false</disabled>
 </page>
