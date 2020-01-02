@@ -1,5 +1,5 @@
 <content-type name="/page/entry" is-wcm-type="true">
-	<label>Index Page</label>
+	<label>Page - Index</label>
 	<form>/page/entry</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
