@@ -6,11 +6,11 @@ import { ApolloProvider } from '@apollo/react-hooks';
 import ApolloClient from 'apollo-boost';
 import Home from 'app/pages/Home';
 import Gallery from 'app/pages/Gallery';
-import { crafterGraphQlURL } from 'app/configuration';
+import configuration from 'app/configuration';
 import BaseLayout from 'app/components/BaseLayout';
 
 const client = new ApolloClient({
-  uri: crafterGraphQlURL,
+  uri: configuration.crafterGraphQlURL,
 });
 
 function App() {

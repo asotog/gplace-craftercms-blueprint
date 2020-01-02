@@ -1,4 +1,7 @@
+const configurationElement = document.querySelector('script#configuration');
 
-export const baseCrafterURL = 'http://localhost:8080';
+const configurationString = configurationElement ? configurationElement.innerText : null;
 
-export const crafterGraphQlURL = `${baseCrafterURL}/api/1/site/graphql/?crafterSite=gplace`;
+export default {
+  ...(configurationString ? JSON.parse(configurationString) : {}),
+};
