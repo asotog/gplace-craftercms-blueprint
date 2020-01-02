@@ -1,5 +1,5 @@
 <form>
-	<title>Index Page</title>
+	<title>Page - Index</title>
 	<description>Index page where single page app is bootstrapped</description>
 	<objectType>page</objectType>
 	<content-type>/page/entry</content-type>
