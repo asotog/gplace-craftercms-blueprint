@@ -21,6 +21,10 @@
 -->
 
 <site>
+  <spa>
+    <enabled>true</enabled>
+    <viewName>/</viewName>
+  </spa>
   <cors>
     <enable>true</enable>
     <accessControlMaxAge>3600</accessControlMaxAge>
