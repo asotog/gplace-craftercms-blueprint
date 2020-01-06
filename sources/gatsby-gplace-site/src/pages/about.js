@@ -1,7 +1,9 @@
 import React from "react"
+import BaseLayout from "../components/BaseLayout"
+
 export default () => (
-  <div style={{ color: `teal` }}>
+  <BaseLayout>
     <h1>About Gatsby</h1>
     <p>Such wow. Very React.</p>
-  </div>
-); 
+  </BaseLayout>
+)

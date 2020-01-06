@@ -3,17 +3,17 @@
  *
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
-const proxy = require('http-proxy-middleware');
+const proxy = require("http-proxy-middleware")
 
-const crafterURL = process.env.CRAFTER_URL || 'http://localhost:8080';
+const crafterURL = process.env.CRAFTER_URL || "http://localhost:8080"
 
 module.exports = {
   /* Your site config here */
-  developMiddleware: (app) => {
-    app.use('/static-assets', proxy({ target: crafterURL }));
+  developMiddleware: app => {
+    app.use("/static-assets", proxy({ target: crafterURL }))
   },
   plugins: [
-    'gatsby-plugin-sass',
+    "gatsby-plugin-sass",
     {
       resolve: "gatsby-source-graphql",
       options: {
@@ -23,5 +23,5 @@ module.exports = {
         refetchInterval: 3,
       },
     },
-  ]
+  ],
 }
