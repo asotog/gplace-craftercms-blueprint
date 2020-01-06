@@ -8,7 +8,7 @@ const isActive = ({ isCurrent }) =>
 
 const Header = () => (
   <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
-    <Navbar.Brand href="#home">G-Place</Navbar.Brand>
+    <Navbar.Brand><Link className="navbar-brand" to="/">G-Place</Link></Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">

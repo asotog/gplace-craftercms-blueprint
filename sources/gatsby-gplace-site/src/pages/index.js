@@ -3,6 +3,7 @@ import Carousel from "../components/Carousel"
 import FeaturedSection from "../components/FeaturedSection"
 import { StaticQuery, graphql } from "gatsby"
 import BaseLayout from "../components/BaseLayout"
+import Helmet from "react-helmet"
 
 const QUERY = graphql`
   query CarouselQuery {
@@ -38,6 +39,10 @@ const QUERY = graphql`
 
 export default () => (
   <BaseLayout>
+    <Helmet>
+      <title>GPlace</title>
+      <meta name="description" content="Site dedicated to guitars" />
+    </Helmet>
     <StaticQuery
       query={QUERY}
       render={({ CrafterCMS }) => (

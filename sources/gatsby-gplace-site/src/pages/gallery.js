@@ -2,6 +2,7 @@ import React from "react"
 import BaseLayout from "../components/BaseLayout"
 import { StaticQuery, graphql } from "gatsby";
 import ModelsGallery from "../components/ModelsGallery";
+import Helmet from "react-helmet";
 
 const QUERY = graphql`
   query GalleryQuery {
@@ -26,6 +27,10 @@ const QUERY = graphql`
 
 export default () => (
   <BaseLayout>
+    <Helmet>
+      <title>GPlace - Gallery</title>
+      <meta name="description" content="Site dedicated to guitars" />
+    </Helmet>
     <h1>Gallery</h1>
     <StaticQuery
       query={QUERY}

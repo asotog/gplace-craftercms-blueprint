@@ -13,6 +13,7 @@ module.exports = {
     app.use("/static-assets", proxy({ target: crafterURL }))
   },
   plugins: [
+    "gatsby-plugin-react-helmet",
     "gatsby-plugin-sass",
     {
       resolve: "gatsby-source-graphql",
