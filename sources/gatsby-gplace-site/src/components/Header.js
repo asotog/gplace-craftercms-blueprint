@@ -15,6 +15,9 @@ const Header = () => (
         <Link className="nav-link" to="/" getProps={isActive}>
           Home
         </Link>
+        <Link className="nav-link" to="/gallery" getProps={isActive}>
+          Gallery
+        </Link>
         <Link className="nav-link" to="/about" getProps={isActive}>
           About
         </Link>
