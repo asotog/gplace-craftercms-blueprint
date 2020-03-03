@@ -29,7 +29,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       path: `/model/${model.objectId}`,
       component: require.resolve("./src/templates/guitar-model.js"),
       context: {
-        model,
+        objectId: model.objectId,
       },
     })
   })

@@ -1,9 +1,10 @@
 import React from 'react'
 import BaseLayout from '../components/BaseLayout';
-import { Link } from "gatsby";
+import { Link, graphql } from "gatsby";
 import Helmet from 'react-helmet';
 
-const GuitarModel = ({ pageContext: { model }}) => {
+const GuitarModel = ({ data }) => {
+  const { CrafterCMS: { component_guitarmodel: { items: [ model ] } } } = data;
   return (
     <BaseLayout>
       <Helmet>
@@ -17,5 +18,20 @@ const GuitarModel = ({ pageContext: { model }}) => {
     </BaseLayout>
   )
 };
+
+export const query = graphql`
+  query($objectId: String!) {
+    CrafterCMS {
+      component_guitarmodel {
+        items {
+          body_html
+          modelName_s,
+          manufacturer_s,
+          objectId(filter: {equals: $objectId})
+        }
+      }
+    }
+  }
+`
 
 export default GuitarModel;
